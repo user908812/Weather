@@ -1,0 +1,80 @@
+* {
+    font-size: 40px;
+    color: #fff;
+}
+body {
+    background: linear-gradient(#87ceeb, #ffff00);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#swa {
+    text-shadow: 1px 1px 1px #000;
+    font-size: 30px;
+}
+#gui {
+    margin-top: 80px;
+    width: 420px;
+    height: 800px;
+    border: 1px solid #000;
+    background: linear-gradient(#a7ddf3, #87ceeb, #03be03, #02da02, #90ee90);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+input {
+    border: none;
+    width: 408px;
+    padding-left: 10px;
+    font-size: 35px;
+
+    background: linear-gradient(#a7ddf3, #87ceeb, #03be03, #02da02, #90ee90);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#temperatureDisplay {
+    margin-top: 8px;
+    text-align: center;
+}
+#feelsLikeTemperature, u {
+    font-size: 25px;
+    margin-top: -35px;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+}
+#info {
+    font-size: 24px;
+}
+#appLogo {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#temperatureImageDisplay {
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+}
+span {
+    margin-top: 10px;
+    font-size: 26px;
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+#randomPlace {
+    text-align: center;
+    margin-left: 75px;
+    background-color: #008000;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.5s 0.5s;
+}
+#randomPlace:hover {
+    background-color: #014e01;
+    box-shadow: 2px 2px 2px #000;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Aleksander Orzech">
+    <meta name="description" content="Aplikacja do sprawdzania pogody w html, css i javascript.">
+    <meta name="keywords" content="pogoda, prognoza, aplikacja, 2024, maj">
+
+    <title>Simple weather app | by Orzech</title>
+
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+    <section>
+        <div id="gui">
+            <img id="appLogo" width="50" height="50" src="icon.png" draggable="false" alt="icon.png"><span id="swa">Simple Weather App</span>
+            <hr>
+            <input type="text" name="cityName" id="cityName" value="Kielce" placeholder="Nazwa miasta / kraju" required autofocus autocomplete="on">
+            <img id="temperatureImageDisplay" draggable="false" alt="temperatureImageDisplay">
+            <h1 id="temperatureDisplay"></h1>
+            <h2 id="feelsLikeTemperature"></h2>
+            <div id="info"></div>
+            <button onclick="getRandomPlace()" id="randomPlace">Random place</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
